@@ -1,0 +1,3 @@
+Word2Vec and t-SNE Word Visualization
+
+This project demonstrates how to convert words into meaningful vectors and visualize their relationships. A small dataset of 15 AI-related sentences was created, then cleaned, tokenized, and filtered to remove stopwords. Word2Vec, a neural network-based model, was trained to learn vector representations for each unique word, capturing semantic similarities such that related words like “AI” and “ChatGPT” appear close together in high-dimensional space. To make these relationships visible, t-SNE was applied to reduce the vectors to 2D, resulting in a scatter plot where each point represents a word, and nearby points indicate semantic closeness. The main purpose of this project is to help understand word embeddings, semantic
